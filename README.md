@@ -1,4 +1,4 @@
-# 🧠 NeuroSync: A Privacy-First Mental Health Companion
+# 🧠 NeuroSync: A Privacy-First Mental Health Companio
 
 <div align="center">
   <img src="assets/images/jpg/1_project_overview.jpg" alt="NeuroSync Project Overview" width="800">
