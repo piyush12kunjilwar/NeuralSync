@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#1A202C">NeuroSync Project Overview</text>
+  <line x1="250" y1="70" x2="550" y2="70" stroke="#4361EE" stroke-width="3"/>
+  
+  <!-- Main application components -->
+  <rect x="250" y="100" width="300" height="80" rx="10" ry="10" fill="#4361EE" opacity="0.8"/>
+  <text x="400" y="145" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">NeuroSync Core Platform</text>
+  <text x="400" y="165" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Privacy-First Mental Health Companion</text>
+  
+  <!-- Four main modules arranged in a circle -->
+  <!-- Journaling -->
+  <rect x="100" y="250" width="180" height="100" rx="10" ry="10" fill="#4CC9F0" opacity="0.8"/>
+  <text x="190" y="290" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Digital Journaling</text>
+  <text x="190" y="310" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Secure entry storage with</text>
+  <text x="190" y="330" font-family="Arial" font-size="12" text-anchor="middle" fill="white">sentiment analysis</text>
+  
+  <!-- Wearable Integration -->
+  <rect x="520" y="250" width="180" height="100" rx="10" ry="10" fill="#F72585" opacity="0.8"/>
+  <text x="610" y="290" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Wearable Integration</text>
+  <text x="610" y="310" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Real-time biometric data</text>
+  <text x="610" y="330" font-family="Arial" font-size="12" text-anchor="middle" fill="white">from multiple devices</text>
+  
+  <!-- AI Coaching -->
+  <rect x="100" y="400" width="180" height="100" rx="10" ry="10" fill="#7209B7" opacity="0.8"/>
+  <text x="190" y="440" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">AI Coaching</text>
+  <text x="190" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Personalized mental health</text>
+  <text x="190" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="white">guidance with GPT models</text>
+  
+  <!-- Zen Garden -->
+  <rect x="520" y="400" width="180" height="100" rx="10" ry="10" fill="#3A0CA3" opacity="0.8"/>
+  <text x="610" y="440" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Zen Garden</text>
+  <text x="610" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Interactive meditation</text>
+  <text x="610" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="white">mini-game for mindfulness</text>
+  
+  <!-- Center circle with brain logo -->
+  <circle cx="400" cy="375" r="80" fill="#f8fafc" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="400" cy="375" r="60" fill="#4361EE" opacity="0.1"/>
+  <path d="M400,325 C435,325 465,350 465,380 C465,410 435,435 400,435 C365,435 335,410 335,380 C335,350 365,325 400,325 Z" fill="none" stroke="#4361EE" stroke-width="2"/>
+  <path d="M385,345 C390,340 397,335 407,345 C417,355 417,365 407,375 C397,385 385,400 385,415" fill="none" stroke="#4361EE" stroke-width="2"/>
+  <path d="M415,345 C410,340 403,335 393,345 C383,355 383,365 393,375 C403,385 415,400 415,415" fill="none" stroke="#4361EE" stroke-width="2"/>
+  
+  <!-- Connection lines -->
+  <line x1="280" y1="300" x2="325" y2="340" stroke="#4A5568" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="520" y1="300" x2="475" y2="340" stroke="#4A5568" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="280" y1="450" x2="325" y2="410" stroke="#4A5568" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="520" y1="450" x2="475" y2="410" stroke="#4A5568" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Core Technologies section -->
+  <rect x="100" y="520" width="600" height="60" rx="10" ry="10" fill="#E2E8F0"/>
+  <text x="400" y="545" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#1A202C">Core Technologies</text>
+  
+  <rect x="130" y="560" width="100" height="25" rx="5" ry="5" fill="#4361EE" opacity="0.6"/>
+  <text x="180" y="577" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Streamlit UI</text>
+  
+  <rect x="240" y="560" width="100" height="25" rx="5" ry="5" fill="#4361EE" opacity="0.6"/>
+  <text x="290" y="577" font-family="Arial" font-size="12" text-anchor="middle" fill="white">OpenAI</text>
+  
+  <rect x="350" y="560" width="100" height="25" rx="5" ry="5" fill="#4361EE" opacity="0.6"/>
+  <text x="400" y="577" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Machine Learning</text>
+  
+  <rect x="460" y="560" width="100" height="25" rx="5" ry="5" fill="#4361EE" opacity="0.6"/>
+  <text x="510" y="577" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Python</text>
+  
+  <rect x="570" y="560" width="100" height="25" rx="5" ry="5" fill="#4361EE" opacity="0.6"/>
+  <text x="620" y="577" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Federated Learning</text>
+</svg>

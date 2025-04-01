@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#1A202C">Zen Garden Meditation Space</text>
+  <line x1="250" y1="70" x2="550" y2="70" stroke="#4D908E" stroke-width="3"/>
+  
+  <!-- Zen Garden visualization -->
+  <rect x="150" y="120" width="500" height="300" rx="10" ry="10" fill="#F0E9D2"/>
+  
+  <!-- Sand patterns -->
+  <pattern id="sand-waves" patternUnits="userSpaceOnUse" width="20" height="20">
+    <circle cx="1" cy="1" r="1" fill="#E9E0C9"/>
+    <circle cx="11" cy="11" r="1" fill="#E9E0C9"/>
+  </pattern>
+  <rect x="150" y="120" width="500" height="300" rx="10" ry="10" fill="url(#sand-waves)"/>
+  
+  <!-- Zen stones -->
+  <ellipse cx="250" cy="220" rx="30" ry="15" fill="#787167"/>
+  <circle cx="350" cy="250" r="20" fill="#6E655C"/>
+  <ellipse cx="450" cy="180" rx="15" ry="7" fill="#847E75"/>
+  
+  <!-- Plants -->
+  <path d="M550,300 L540,250 L550,220 L560,250 Z" fill="#4A6741"/>
+  <rect x="548" y="300" width="4" height="40" fill="#6D4C33"/>
+  
+  <path d="M200,350 L200,310 L210,310 L210,350 L215,350 L215,320 L225,320 L225,350" fill="#4A6741"/>
+  
+  <!-- Decoration -->
+  <path d="M500,350 L485,320 L515,320 Z" fill="#6D4C33"/>
+  
+  <!-- Lantern -->
+  <rect x="400" y="320" width="20" height="30" fill="#E8C596"/>
+  <rect x="395" y="315" width="30" height="5" fill="#6D4C33"/>
+  <rect x="395" y="350" width="30" height="5" fill="#6D4C33"/>
+  <rect x="405" y="355" width="10" height="15" fill="#6D4C33"/>
+  <rect x="405" y="300" width="10" height="15" fill="#6D4C33"/>
+  
+  <!-- Zen Garden border -->
+  <rect x="150" y="120" width="500" height="300" rx="10" ry="10" fill="none" stroke="#4D908E" stroke-width="3"/>
+  
+  <!-- Meditation Timer -->
+  <rect x="250" y="450" width="300" height="100" rx="10" ry="10" fill="white" stroke="#4D908E" stroke-width="2"/>
+  <text x="400" y="480" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#4D908E">Meditation Timer</text>
+  
+  <text x="400" y="515" font-family="Arial" font-size="30" font-weight="bold" text-anchor="middle" fill="#4A5568">05:00</text>
+  
+  <!-- Timer controls visualization -->
+  <rect x="300" y="540" width="50" height="20" rx="5" ry="5" fill="#EDF2F7"/>
+  <text x="325" y="555" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">3 min</text>
+  
+  <rect x="360" y="540" width="50" height="20" rx="5" ry="5" fill="#EDF2F7"/>
+  <text x="385" y="555" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">5 min</text>
+  
+  <rect x="420" y="540" width="50" height="20" rx="5" ry="5" fill="#EDF2F7"/>
+  <text x="445" y="555" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">10 min</text>
+  
+  <rect x="480" y="540" width="50" height="20" rx="5" ry="5" fill="#4361EE"/>
+  <text x="505" y="555" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Start</text>
+  
+  <!-- Features bullets -->
+  <text x="150" y="480" font-family="Arial" font-size="16" font-weight="bold" fill="#4A5568">Key Features:</text>
+  <circle cx="150" cy="505" r="5" fill="#4D908E"/>
+  <text x="165" y="510" font-family="Arial" font-size="14" fill="#4A5568">Guided meditation</text>
+  <circle cx="150" cy="530" r="5" fill="#4D908E"/>
+  <text x="165" y="535" font-family="Arial" font-size="14" fill="#4A5568">Track sessions</text>
+  <circle cx="150" cy="555" r="5" fill="#4D908E"/>
+  <text x="165" y="560" font-family="Arial" font-size="14" fill="#4A5568">Zen wisdom quotes</text>
+  
+  <!-- Stats visualization -->
+  <text x="600" y="480" font-family="Arial" font-size="16" font-weight="bold" fill="#4A5568">Meditation Stats:</text>
+  <circle cx="600" cy="505" r="5" fill="#4D908E"/>
+  <text x="615" y="510" font-family="Arial" font-size="14" fill="#4A5568">Total sessions</text>
+  <circle cx="600" cy="530" r="5" fill="#4D908E"/>
+  <text x="615" y="535" font-family="Arial" font-size="14" fill="#4A5568">Streak days</text>
+  <circle cx="600" cy="555" r="5" fill="#4D908E"/>
+  <text x="615" y="560" font-family="Arial" font-size="14" fill="#4A5568">Total minutes</text>
+  
+  <!-- Bottom attribution -->
+  <text x="400" y="590" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">NeuroSync - Zen Garden Mindfulness Practice</text>
+</svg>

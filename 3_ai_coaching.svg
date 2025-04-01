@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#1A202C">AI Coaching System</text>
+  <line x1="275" y1="70" x2="525" y2="70" stroke="#4CC9F0" stroke-width="3"/>
+  
+  <!-- Central AI coach -->
+  <circle cx="400" cy="200" r="80" fill="#4CC9F0" opacity="0.1"/>
+  <circle cx="400" cy="200" r="70" fill="none" stroke="#4CC9F0" stroke-width="2"/>
+  <!-- Brain icon -->
+  <path d="M400,150 C420,150 440,170 440,190 C440,210 420,230 400,230 C380,230 360,210 360,190 C360,170 380,150 400,150 Z" fill="none" stroke="#4CC9F0" stroke-width="2"/>
+  <path d="M390,170 C395,165 405,165 410,170 C415,175 415,185 410,190 C405,195 400,205 400,215" fill="none" stroke="#4CC9F0" stroke-width="2"/>
+  <path d="M410,170 C405,165 395,165 390,170 C385,175 385,185 390,190 C395,195 400,205 400,215" fill="none" stroke="#4CC9F0" stroke-width="2"/>
+  
+  <text x="400" y="260" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#4CC9F0">AI Coach</text>
+  <text x="400" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">OpenAI GPT-4o</text>
+  
+  <!-- Input sources -->
+  <!-- Journal input -->
+  <rect x="100" y="150" width="160" height="100" rx="10" ry="10" fill="#7209B7" opacity="0.1" stroke="#7209B7" stroke-width="2"/>
+  <text x="180" y="180" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#7209B7">Journal Entries</text>
+  <text x="180" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Mood, thoughts, feelings</text>
+  <text x="180" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Daily activities</text>
+  
+  <!-- Arrow to AI -->
+  <line x1="260" y1="200" x2="310" y2="200" stroke="#7209B7" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="310,200 300,195 300,205" fill="#7209B7"/>
+  
+  <!-- Wearable data input -->
+  <rect x="100" y="280" width="160" height="100" rx="10" ry="10" fill="#F72585" opacity="0.1" stroke="#F72585" stroke-width="2"/>
+  <text x="180" y="310" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#F72585">Wearable Data</text>
+  <text x="180" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Sleep quality</text>
+  <text x="180" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Physical activity</text>
+  
+  <!-- Arrow to AI -->
+  <line x1="260" y1="330" x2="330" y2="240" stroke="#F72585" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="330,240 320,245 325,235" fill="#F72585"/>
+  
+  <!-- User preferences -->
+  <rect x="100" y="410" width="160" height="100" rx="10" ry="10" fill="#4D908E" opacity="0.1" stroke="#4D908E" stroke-width="2"/>
+  <text x="180" y="440" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4D908E">User Preferences</text>
+  <text x="180" y="465" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Coaching focus areas</text>
+  <text x="180" y="485" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Selected personas</text>
+  
+  <!-- Arrow to AI -->
+  <line x1="260" y1="460" x2="360" y2="270" stroke="#4D908E" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="360,270 350,275 355,265" fill="#4D908E"/>
+  
+  <!-- Output coaching -->
+  <rect x="540" y="150" width="160" height="100" rx="10" ry="10" fill="#4361EE" opacity="0.1" stroke="#4361EE" stroke-width="2"/>
+  <text x="620" y="180" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4361EE">Personalized Advice</text>
+  <text x="620" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Coping strategies</text>
+  <text x="620" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Mental health support</text>
+  
+  <!-- Arrow from AI -->
+  <line x1="470" y1="200" x2="530" y2="200" stroke="#4361EE" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="530,200 520,195 520,205" fill="#4361EE"/>
+  
+  <!-- Progress tracking -->
+  <rect x="540" y="280" width="160" height="100" rx="10" ry="10" fill="#F3722C" opacity="0.1" stroke="#F3722C" stroke-width="2"/>
+  <text x="620" y="310" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#F3722C">Progress Analysis</text>
+  <text x="620" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Growth tracking</text>
+  <text x="620" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Success measurement</text>
+  
+  <!-- Arrow from AI -->
+  <line x1="460" y1="230" x2="530" y2="300" stroke="#F3722C" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="530,300 520,295 525,305" fill="#F3722C"/>
+  
+  <!-- Exercises -->
+  <rect x="540" y="410" width="160" height="100" rx="10" ry="10" fill="#7D80DA" opacity="0.1" stroke="#7D80DA" stroke-width="2"/>
+  <text x="620" y="440" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#7D80DA">Custom Exercises</text>
+  <text x="620" y="465" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Tailored activities</text>
+  <text x="620" y="485" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Skill development</text>
+  
+  <!-- Arrow from AI -->
+  <line x1="440" y1="270" x2="530" y2="430" stroke="#7D80DA" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="530,430 520,425 525,435" fill="#7D80DA"/>
+  
+  <!-- Bottom attribution -->
+  <text x="400" y="570" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A5568">Specialized Mental Health Coaching Personas</text>
+  <text x="400" y="590" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">NeuroSync - Personalized AI Mental Health Support</text>
+</svg>

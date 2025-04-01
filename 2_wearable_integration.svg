@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#1A202C">Wearable Data Integration</text>
+  <line x1="250" y1="70" x2="550" y2="70" stroke="#F72585" stroke-width="3"/>
+  
+  <!-- Smartwatch icon -->
+  <rect x="150" y="150" width="160" height="200" rx="30" ry="30" fill="#F72585" opacity="0.2"/>
+  <rect x="170" y="170" width="120" height="160" rx="10" ry="10" fill="#F72585" opacity="0.4"/>
+  <circle cx="230" cy="320" r="15" fill="white" stroke="#F72585" stroke-width="2"/>
+  <line x1="220" y1="200" x2="240" y2="200" stroke="white" stroke-width="2"/>
+  <line x1="220" y1="220" x2="240" y2="220" stroke="white" stroke-width="2"/>
+  <path d="M220,250 C225,260 235,260 240,250" stroke="white" stroke-width="2" fill="none"/>
+  <text x="230" y="380" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#F72585">Wearable Devices</text>
+  
+  <!-- Supported devices -->
+  <rect x="110" y="420" width="240" height="120" rx="10" ry="10" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="230" y="445" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4A5568">Supported Devices</text>
+  
+  <circle cx="150" cy="475" r="10" fill="#F72585" opacity="0.6"/>
+  <text x="170" y="480" font-family="Arial" font-size="14" fill="#4A5568">Apple Watch</text>
+  
+  <circle cx="150" cy="505" r="10" fill="#F72585" opacity="0.6"/>
+  <text x="170" y="510" font-family="Arial" font-size="14" fill="#4A5568">Fitbit</text>
+  
+  <circle cx="250" cy="475" r="10" fill="#F72585" opacity="0.6"/>
+  <text x="270" y="480" font-family="Arial" font-size="14" fill="#4A5568">Garmin</text>
+  
+  <circle cx="250" cy="505" r="10" fill="#F72585" opacity="0.6"/>
+  <text x="270" y="510" font-family="Arial" font-size="14" fill="#4A5568">Oura Ring</text>
+  
+  <!-- Data Flow arrow -->
+  <line x1="330" y1="250" x2="440" y2="250" stroke="#4A5568" stroke-width="3" stroke-dasharray="10,5"/>
+  <polygon points="440,250 430,245 430,255" fill="#4A5568"/>
+  <text x="385" y="230" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A5568">Data Flow</text>
+  
+  <!-- Data Processing -->
+  <rect x="460" y="150" width="200" height="200" rx="10" ry="10" fill="#4361EE" opacity="0.1" stroke="#4361EE" stroke-width="2"/>
+  <text x="560" y="180" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#4361EE">Data Processing</text>
+  
+  <!-- Data types -->
+  <circle cx="500" cy="220" r="15" fill="#4361EE" opacity="0.6"/>
+  <text x="540" y="225" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">Heart Rate</text>
+  
+  <circle cx="500" cy="250" r="15" fill="#4361EE" opacity="0.6"/>
+  <text x="540" y="255" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">Sleep Data</text>
+  
+  <circle cx="500" cy="280" r="15" fill="#4361EE" opacity="0.6"/>
+  <text x="540" y="285" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">Activity Level</text>
+  
+  <circle cx="500" cy="310" r="15" fill="#4361EE" opacity="0.6"/>
+  <text x="540" y="315" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">Stress Score</text>
+  
+  <!-- Output flow -->
+  <line x1="560" y1="350" x2="560" y2="400" stroke="#4A5568" stroke-width="3" stroke-dasharray="10,5"/>
+  <polygon points="560,400 555,390 565,390" fill="#4A5568"/>
+  
+  <!-- Analysis results -->
+  <rect x="460" y="410" width="200" height="130" rx="10" ry="10" fill="#4CC9F0" opacity="0.2" stroke="#4CC9F0" stroke-width="2"/>
+  <text x="560" y="440" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#4CC9F0">Analysis Results</text>
+  
+  <text x="560" y="470" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">• Wellness Score</text>
+  <text x="560" y="495" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">• Correlation with Mood</text>
+  <text x="560" y="520" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">• Health Recommendations</text>
+  
+  <!-- Bottom attribution -->
+  <text x="400" y="580" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">NeuroSync - Real-Time Wearable Data Processing for Mental Health Insights</text>
+</svg>

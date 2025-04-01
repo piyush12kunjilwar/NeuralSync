@@ -1,4 +1,3 @@
-# NeuralSync
 # 🧠 NeuroSync: A Privacy-First Mental Health Companion
 
 <div align="center">

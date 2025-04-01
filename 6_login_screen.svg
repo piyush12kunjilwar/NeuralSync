@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#1A202C">Login Screen with Brain Animation</text>
+  <line x1="225" y1="70" x2="575" y2="70" stroke="#4361EE" stroke-width="3"/>
+  
+  <!-- Application layout mockup -->
+  <rect x="100" y="100" width="600" height="470" rx="10" ry="10" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Sidebar -->
+  <rect x="100" y="100" width="180" height="470" rx="10" ry="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- Logo -->
+  <circle cx="190" cy="150" r="40" fill="#4361EE" opacity="0.2"/>
+  <path d="M190,120 C215,120 235,140 235,165 C235,190 215,210 190,210 C165,210 145,190 145,165 C145,140 165,120 190,120 Z" fill="none" stroke="#4361EE" stroke-width="3"/>
+  <path d="M180,140 C183,136 187,135 193,140 C198,145 198,150 193,155 C187,160 180,170 180,180" fill="none" stroke="#4361EE" stroke-width="2"/>
+  <path d="M200,140 C197,136 193,135 187,140 C182,145 182,150 187,155 C193,160 200,170 200,180" fill="none" stroke="#4361EE" stroke-width="2"/>
+  
+  <text x="190" y="240" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#4361EE">NeuroSync</text>
+  <text x="190" y="260" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">Your Mental Health Companion</text>
+  
+  <line x1="120" y1="280" x2="260" y2="280" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Login form fields -->
+  <text x="190" y="310" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#4A5568">Login</text>
+  
+  <text x="140" y="340" font-family="Arial" font-size="14" fill="#4A5568">Username</text>
+  <rect x="130" y="350" width="120" height="30" rx="5" ry="5" fill="#EDF2F7" stroke="#CBD5E0" stroke-width="1"/>
+  
+  <text x="140" y="400" font-family="Arial" font-size="14" fill="#4A5568">Password</text>
+  <rect x="130" y="410" width="120" height="30" rx="5" ry="5" fill="#EDF2F7" stroke="#CBD5E0" stroke-width="1"/>
+  
+  <rect x="130" y="460" width="120" height="40" rx="20" ry="20" fill="#4361EE"/>
+  <text x="190" y="485" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Login</text>
+  
+  <!-- Main content area with 3D brain animation -->
+  <rect x="290" y="130" width="380" height="280" rx="10" ry="10" fill="#F0F5FF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- Brain animation representation -->
+  <ellipse cx="480" cy="270" rx="120" ry="100" fill="#4361EE" opacity="0.05"/>
+  <path d="M480,170 C530,170 570,220 570,270 C570,320 530,370 480,370 C430,370 390,320 390,270 C390,220 430,170 480,170 Z" fill="none" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  <path d="M480,190 C520,190 550,225 550,270 C550,315 520,350 480,350 C440,350 410,315 410,270 C410,225 440,190 480,190 Z" fill="none" stroke="#4361EE" stroke-width="1" opacity="0.6"/>
+  <path d="M480,210 C510,210 530,235 530,270 C530,305 510,330 480,330 C450,330 430,305 430,270 C430,235 450,210 480,210 Z" fill="none" stroke="#4361EE" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Brain connection nodes -->
+  <circle cx="450" cy="230" r="3" fill="#4361EE" opacity="0.8"/>
+  <circle cx="510" cy="230" r="3" fill="#4361EE" opacity="0.8"/>
+  <circle cx="520" cy="270" r="3" fill="#4361EE" opacity="0.8"/>
+  <circle cx="440" cy="270" r="3" fill="#4361EE" opacity="0.8"/>
+  <circle cx="470" cy="310" r="3" fill="#4361EE" opacity="0.8"/>
+  <circle cx="490" cy="310" r="3" fill="#4361EE" opacity="0.8"/>
+  <circle cx="480" cy="200" r="3" fill="#4361EE" opacity="0.8"/>
+  
+  <!-- Brain connections -->
+  <line x1="450" y1="230" x2="510" y2="230" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  <line x1="450" y1="230" x2="440" y2="270" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  <line x1="510" y1="230" x2="520" y2="270" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  <line x1="440" y1="270" x2="470" y2="310" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  <line x1="520" y1="270" x2="490" y2="310" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  <line x1="470" y1="310" x2="490" y2="310" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  <line x1="480" y1="200" x2="450" y2="230" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  <line x1="480" y1="200" x2="510" y2="230" stroke="#4361EE" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Animation effect circles -->
+  <circle cx="480" cy="270" r="60" fill="none" stroke="#4361EE" stroke-width="1" opacity="0.2">
+    <animate attributeName="r" values="60;80;60" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="480" cy="270" r="40" fill="none" stroke="#4361EE" stroke-width="1" opacity="0.3">
+    <animate attributeName="r" values="40;60;40" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Welcome text panel -->
+  <rect x="290" y="430" width="380" height="120" rx="10" ry="10" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <text x="480" y="460" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#4361EE">Welcome to NeuroSync</text>
+  <text x="480" y="490" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">A privacy-first mental health companion</text>
+  <text x="480" y="515" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A5568">Please login to continue your journey</text>
+  
+  <!-- Bottom attribution -->
+  <text x="400" y="590" font-family="Arial" font-size="12" text-anchor="middle" fill="#4A5568">NeuroSync - Interactive 3D Brain Animation on Login</text>
+</svg>
