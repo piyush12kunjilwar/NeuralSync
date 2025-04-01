@@ -9,7 +9,7 @@
 
 I'm Piyush Kunjilwar, and I'm excited to share **NeuroSync** with you - a project that's truly close to my heart. In today's fast-paced digital world, mental health support should be both intelligent and respectful of privacy. That's why I built NeuroSync: to provide personalized mental health assistance while ensuring your sensitive data stays right where it belongs - with you.
 
-## 🌟 What Makes NeuroSync Special
+## 🌟 What Makes NeuroSync Special?
 
 NeuroSync isn't just another mental health app. It's a comprehensive companion that combines:
 
